@@ -1,1 +1,23 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<bug_report>
+          <id>BR-1</id>
+          <header>the selection of past date is allowed</header>
+          <description>It is allowed to select a past date for ordering a call to the organization</description>
+          <environment>Windows_10_64_bit, Google_Chrome_98.0.4758.102</environment>
+          <severity>major</severity>
+          <priority>high</priority>
+          <steps_to_reproduce>
+                             <step_1>Open the page </step_1>
+                             <step_2>Go to 'Feedback' page</step_2>
+                             <step_3>Go to the form 'Select the day of the week'</step_3>
+                             <step_4>In the calendar that opens, select any past date, for example: 11.01.2021</step_4>
+                             <step_5>In the field 'Phone number' enter the number: '+7-999-999-99-99'</step_5>
+                             <step_6>In the time selection form, in the 'From' radiobutton, select the value '09'</step_6>
+                             <step_7>In the 'To' radio button, select the value '16'</step_7>
+                             <step_8>Click on the 'Call me back' button</step_8>
+          </steps_to_reproduce>
+          <actual_result>The page displays the message 'Thank you, we will call you back at the specified time' and the buttons 'Thank you' and 'Change call time'</actual_result>
+          <expected_result>A notification appears stating that an incorrect date has been selected. 'Call me back' button is not clickable</expected_result>
+          <attachment>screenshots</attachment>
+          <assigned_to>manager</assigned_to>
+</bug_report>
