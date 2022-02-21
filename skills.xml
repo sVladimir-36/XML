@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skills>
+	<basic_theory>test documentation, testing types, methods, directions, SDLC, STLC, client-server architecture
+	</basic_theory>
+	<HTTP>request methods, response codes, HTTP request and response structure</HTTP>
+        <JSON>structure</JSON>
+        <XML>structure</XML>
+	<API_testing>Postman, JS, API autotadting</API_testing>
+	<logs>removing, reading</logs>
+	<sniffers>fiddler, charles</sniffers>
+	<DevTools>Google Chrome, FireFox</DevTools>
+	<VPN>what for, how to use, instruments</VPN>
+	<mobile_testing>iOS, Android, guidelines, XCode, Android Studio, ADB</mobile_testing>
+	<linux_terminal>copying, creating, moving, view</linux_terminal>
+	<sql>Create, Delete, Drop, Inser Into, Select, Join, From, Where</sql>
+	<postgres>installation, using, setting</postgres>
+	<redis>installation, using, setting</redis>
+	<jmeter>using</jmeter>
+	<python>basics, application creation</python>
+</skills>
